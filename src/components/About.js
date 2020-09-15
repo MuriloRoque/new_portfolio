@@ -4,6 +4,14 @@ import React from 'react';
 const About = () => (
   <section>
     <h1>About me</h1>
+    <p>I’m Murilo, a full-stack developer who specializes in Ruby, 
+       Rails, Javascript, React, and Redux. I recently graduated from Microverse, 
+       a remote full-stack development program with a focus on git-standup and 
+       peer to peer programming. Just in the past year, I’ve built 65 projects, 
+       registered 1945 hours, and completed 96 coding challenges. Out of those projects, 
+       my favorite is a Rails mobile app that tracks a user’s dietary health by measuring 
+       the number of calories that were consumed daily. 
+       Currently, I’m exploring full-stack development opportunities</p>
     <a href={resume}>Get my resume</a>
     <article>
       <h1>Languages</h1>
