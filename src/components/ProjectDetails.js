@@ -7,11 +7,11 @@ import github2 from '../assets/images/github2.png';
 const ProjectDetails = ({ title, stacks, description, liveLink, repo, images }) => (
   <article>
     <ImageGallery items={images} />
-    <a href={liveLink}>
+    <a rel="noopener noreferrer" target='_blank'  href={liveLink}>
       <span>See live</span>
       <img src={pop} alt="pop"/>
     </a>
-    <a href={repo}>
+    <a rel="noopener noreferrer" target='_blank'  href={repo}>
       <span>See Source</span>
       <img src={github2} alt="github"/>
     </a>

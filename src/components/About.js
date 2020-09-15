@@ -1,5 +1,6 @@
 import about from '../styles/About.module.css';
 import React from 'react';
+import resume from '../assets/documents/resume.pdf';
 
 const About = () => (
   <section>
@@ -12,7 +13,7 @@ const About = () => (
        my favorite is a Rails mobile app that tracks a user’s dietary health by measuring 
        the number of calories that were consumed daily. 
        Currently, I’m exploring full-stack development opportunities</p>
-    <a href={resume}>Get my resume</a>
+    <a rel="noopener noreferrer" target='_blank' href={resume}>Get my resume</a>
     <article>
       <h1>Languages</h1>
       <ul>
