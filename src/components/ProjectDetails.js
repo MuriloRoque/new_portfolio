@@ -18,9 +18,9 @@ const ProjectDetails = ({ title, stacks, description, liveLink, repo, images }) 
     <h1>{title}</h1>
     <div>
       {
-        stacks.map(stack => {
+        stacks.map(stack => (
           <span>{stack}</span>
-        })
+        ))
       }
     </div>
     <p>{description}</p>

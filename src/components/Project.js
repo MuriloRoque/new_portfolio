@@ -6,12 +6,12 @@ import ProjectDetails from './ProjectDetails';
 
 const Project = ({ title, stacks, description, liveLink, repo, images }) => (
   <article>
-    <img src={images[0]} alt={title}/>
+    <img src={images[0].original} alt={title}/>
     <div>
       {
-        stacks.map(stack => {
+        stacks.map(stack => (
           <span>{stack}</span>
-        })
+        ))
       }
     </div>
     <Popup trigger={<button>See the project</button>} position="right center">
