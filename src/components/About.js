@@ -15,7 +15,7 @@ const About = () => (
        Currently, I’m exploring full-stack development opportunities</p>
     <a rel="noopener noreferrer" target='_blank' href={resume}>Get my resume</a>
     <article>
-      <h1>Languages</h1>
+      <h2>Languages</h2>
       <ul>
         <li>JavaScript (ES5/ES6)</li>
         <li>Ruby</li>
@@ -26,7 +26,7 @@ const About = () => (
       </ul>
     </article>
     <article>
-      <h1>Frameworks</h1>
+      <h2>Frameworks</h2>
       <ul>
         <li>Bootstrap</li>
         <li>Ruby on Rails</li>
@@ -39,7 +39,7 @@ const About = () => (
       </ul>
     </article>
     <article>
-      <h1>Skills</h1>
+      <h2>Skills</h2>
       <ul>
         <li>Bootstrap</li>
         <li>Git</li>

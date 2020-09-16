@@ -1,0 +1,65 @@
+.container {
+  padding: 0 35px;
+}
+.container h1 {
+  font-family: Sora, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 29px;
+  color: #4F5461;
+  margin-bottom: 18px;
+}
+
+.container p {
+  font-family: Sora, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #737986;
+  margin-bottom: 37px;
+}
+
+.container a {
+  font-family: Sora;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 17px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #4456FB;
+  border-radius: 60px;
+  padding: 22px 0;
+  text-decoration: none;
+  display: block;
+  max-width: 193px;
+  margin-bottom: 41px;
+}
+
+.container article {
+  background-color: #F5F8FD;
+  border-radius: 10px;
+  padding: 32px;
+  margin-bottom: 18px;
+}
+
+.container article h2 {
+  font-family: Sora, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 23px;
+  color: #4F5461;
+  margin-bottom: 19px;
+}
+
+.container ul li {
+  font-family: Sora, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 39px;
+  color: #737986;
+}
