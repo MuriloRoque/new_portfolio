@@ -16,6 +16,7 @@ const ProjectsList = () => (
           liveLink={project.liveLink}
           repo={project.repo}
           images={project.images}
+          imageM={project.imageM}
         />
       ))
     }

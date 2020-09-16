@@ -1,0 +1,12 @@
+.container {
+  padding: 36px 28px 60px 28px;
+}
+
+.container h1 {
+  font-family: Sora, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 29px;
+  color: #4F5461;
+}
