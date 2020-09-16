@@ -3,7 +3,7 @@ import React from 'react';
 import resume from '../assets/documents/resume.pdf';
 
 const About = () => (
-  <section>
+  <section className={about.container}>
     <h1>About me</h1>
     <p>I’m Murilo, a full-stack developer who specializes in Ruby, 
        Rails, Javascript, React, and Redux. I recently graduated from Microverse, 

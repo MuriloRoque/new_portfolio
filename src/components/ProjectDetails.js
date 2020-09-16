@@ -5,7 +5,7 @@ import pop from '../assets/images/pop.png';
 import github2 from '../assets/images/github2.png';
 
 const ProjectDetails = ({ title, stacks, description, liveLink, repo, images }) => (
-  <article>
+  <article className={projectDetails.container}>
     <ImageGallery items={images} />
     <a rel="noopener noreferrer" target='_blank'  href={liveLink}>
       <span>See live</span>

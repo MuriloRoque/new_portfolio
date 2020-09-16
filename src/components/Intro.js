@@ -1,5 +1,6 @@
 import React from 'react';
 import intro from '../styles/Intro.module.css';
+import Header from './Header';
 import github from '../assets/images/github.png';
 import twitter from '../assets/images/twitter.png';
 import linkedin from '../assets/images/linkedin.png';
@@ -10,7 +11,8 @@ import facebook from '../assets/images/facebook.png';
 import instagram from '../assets/images/instagram.png';
 
 const Intro = () => (
-  <section>
+  <section className={intro.container}>
+    <Header />
     <h1>Murilo Roque</h1>
     <h4>Full-stack Developer</h4>
     <p>
@@ -20,7 +22,7 @@ const Intro = () => (
     </p>
     <div>
       <span>My works in social networks</span>
-      <div>
+      <div className={intro.iconContainer}>
         <a rel="noopener noreferrer" target='_blank'  href="https://github.com/MuriloRoque">
           <img src={github} alt="github" />
         </a>

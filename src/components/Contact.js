@@ -11,7 +11,7 @@ import instagram from '../assets/images/instagram2.png';
 
 const Contact = () => (
   <>
-    <section>
+    <section className={contact.container}>
       <h1>Interested in collaborating?</h1>
       <p>If you have an application you are interested in developing, a feature
         that you need built or a project that needs coding, I'd love to help you with it.
@@ -30,7 +30,7 @@ const Contact = () => (
           <input type="submit" value='Get in touch'/>
         </form>
         <span>muriloengqui@gmail.com</span>
-        <div>
+        <div className={contact.socialContainer}>
           <a rel="noopener noreferrer" target='_blank'  href="https://github.com/MuriloRoque">
             <img src={github} alt="github" />
           </a>
