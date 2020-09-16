@@ -1,4 +1,109 @@
+.container {
+  text-align: center;
+}
+
+.intro {
+  padding: 0 28px 0 35px;
+  margin-bottom: 60px;
+}
+
+.container h1 {
+  font-family: Sora, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 29px;
+  color: #4F5461;
+  margin-bottom: 16px;
+}
+
+.container p {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #737986;
+}
+
+.background {
+  background: linear-gradient(234.04deg, #7F38DA 0%, #4052F0 71.02%);
+  padding: 37px 21px 20px 21px;
+}
+
+.background input {
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  box-sizing: border-box;
+  box-shadow: 0px 7px 15px rgba(95, 104, 186, 0.13);
+  border-radius: 14px;
+  font-family: Sora, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #91959E;
+  padding: 15px 23px;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.background .text {
+  padding-bottom: 140px;
+}
+
+.background button {
+  background-color: #FA4969;;
+  border-radius: 60px;
+  padding: 22px 0;
+  width: 100%;
+  max-width: 332px;
+  border: none;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 17px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 36px;
+}
+
+.email {
+  font-family: Sora, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #C5CBFE;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.socialContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border-bottom: 1px solid #6877FF;
+  padding-bottom: 32px;
+}
+
 .socialContainer img {
   width: 28px;
   height: 28px;
+}
+
+.footer {
+  font-family: Sora, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #C5CBFE;
+  background-color: #4052F0;
+  padding-bottom: 20px;
 }

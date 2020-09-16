@@ -12,11 +12,13 @@ import instagram from '../assets/images/instagram2.png';
 const Contact = () => (
   <>
     <section className={contact.container}>
-      <h1>Interested in collaborating?</h1>
-      <p>If you have an application you are interested in developing, a feature
-        that you need built or a project that needs coding, I'd love to help you with it.
-      </p>
-      <div>
+      <div className={contact.intro}>
+        <h1>Interested in collaborating?</h1>
+        <p>If you have an application you are interested in developing, a feature
+          that you need built or a project that needs coding, I'd love to help you with it.
+        </p>
+      </div>
+      <div className={contact.background}>
         <form action="">
           <label htmlFor="name">
             <input name='name' type="text" placeholder='Full name*' required/>
@@ -25,11 +27,11 @@ const Contact = () => (
             <input name='email' type="email" placeholder='Email*' required/>
           </label>
           <label htmlFor="message">
-            <input name='message' type="textarea" placeholder='Message*' required/>
+            <input className={contact.text} name='message' type="textarea" placeholder='Message*' required/>
           </label>
-          <input type="submit" value='Get in touch'/>
+          <button type="submit">Get in touch</button>
         </form>
-        <span>muriloengqui@gmail.com</span>
+        <span className={contact.email}>muriloengqui@gmail.com</span>
         <div className={contact.socialContainer}>
           <a rel="noopener noreferrer" target='_blank'  href="https://github.com/MuriloRoque">
             <img src={github} alt="github" />
@@ -58,7 +60,7 @@ const Contact = () => (
         </div>
       </div>
     </section>
-    <footer>© 2020 Murilo Roque</footer>
+    <footer className={contact.footer}>© 2020 Murilo Roque</footer>
   </>
 );
 
