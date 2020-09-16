@@ -2,13 +2,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 32px 25px 0 25px;
+  padding: 32px 25px 36px 25px;
 }
 
 .logo {
   background-color: #4456FB;
   border-radius: 50%;
-  width: 64px;
+  min-width: 64px;
   height: 64px;
   display: flex;
   align-items: center;

@@ -1,5 +1,64 @@
 .container {
   background: linear-gradient(248.05deg, #AE5BD6 24.1%, #4052F0 99.44%);
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.intro {
+  padding: 0 30px 0 30px;
+  text-align: left;
+  padding-bottom: 25px;
+}
+
+.intro h1 {
+  font-family: Sora, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  color: #FFFFFF;
+  padding-bottom: 20px;
+}
+
+.intro h4 {
+  font-family: Sora, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  color: #FFFFFF;
+  padding-bottom: 34px;
+}
+
+.intro p {
+  font-family: Sora, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.network {
+  background: #FFFFFF;
+  border-radius: 20px;
+  padding: 20px 18px;
+  margin: 0 13px;
+}
+
+.network span {
+  text-align: left;
+  display: block;
+  font-family: Sora;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #4F5461;
+  padding-bottom: 15px;
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: space-between;
 }
 
 .iconContainer img {

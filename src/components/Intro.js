@@ -13,14 +13,16 @@ import instagram from '../assets/images/instagram.png';
 const Intro = () => (
   <section className={intro.container}>
     <Header />
-    <h1>Murilo Roque</h1>
-    <h4>Full-stack Developer</h4>
-    <p>
-      Hello, I’m Murilo, a Full-stack Developer and Chemical Engineer
-      who specializes in Ruby, Rails, Javascript, Node, Express and React.
-      Currently, I am exploring remote opportunities.
-    </p>
-    <div>
+    <div className={intro.intro}>
+      <h1>Murilo Roque</h1>
+      <h4>Full-stack Developer</h4>
+      <p>
+        Hello, I’m Murilo, a Full-stack Developer and Chemical Engineer
+        who specializes in Ruby, Rails, Javascript, Node, Express and React.
+        Currently, I am exploring remote opportunities.
+      </p>
+    </div>
+    <div className={intro.network}>
       <span>My works in social networks</span>
       <div className={intro.iconContainer}>
         <a rel="noopener noreferrer" target='_blank'  href="https://github.com/MuriloRoque">
