@@ -30,13 +30,13 @@
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 21px;
   text-align: center;
   color: #E6E9F0;
   background-color: #4F5461;
   border-radius: 40px;
-  padding: 6px 10px;
+  padding: 6px 8px;
   display: block;
 }
 
@@ -54,4 +54,11 @@
   line-height: 17px;
   text-align: center;
   color: #FFFFFF;
+}
+
+@media (min-width: 425px) {
+  .stacks span {
+    font-size: 16px;
+    padding: 6px 14px;
+  }
 }

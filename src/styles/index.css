@@ -46,3 +46,58 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+article .modal-fade-on-enter {
+	animation: none;
+	max-width: 600px;
+	left: 50%;
+	top: 200px;
+	margin-left: -300px;
+}
+
+div .c-modal--window {
+	box-shadow: none;
+}
+
+div .c-modal--close {
+	background: #4456FB;
+	border-radius: 70px;
+	z-index: 200;
+	color: #fff;
+	top: -20px;
+	right: -20px;
+}
+
+div .c-modal--close svg {
+	color: #fff;
+}
+
+div .c-modal--backdrop {
+	background: none;
+}
+
+.carousel .carousel-status {
+	display: none;
+}
+
+.carousel-root {
+	position: relative;
+	z-index: 99;
+}
+
+.carousel .slider .slide {
+	background-color: #fff;
+}
+
+.carousel .slide div img {
+  width: 100%;
+  z-index: 99;
+}
+
+.carousel .thumb img {
+	width: 80px;
+}
+
+div .carousel .thumb:hover {
+	border: 3px solid #F9855B;
+}

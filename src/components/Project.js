@@ -1,7 +1,6 @@
 import project from '../styles/Project.module.css';
 import React from 'react';
-import Popup from 'reactjs-popup';
-import 'reactjs-popup/dist/index.css';
+import { ModalButton } from "react-modal-button";
 import ProjectDetails from './ProjectDetails';
 
 const Project = ({ title, stacks, description, liveLink, repo, images, imageM }) => (
@@ -15,7 +14,11 @@ const Project = ({ title, stacks, description, liveLink, repo, images, imageM })
         ))
       }
     </div>
-    <Popup trigger={<button className={project.popup}>See the project</button>} position="right center">
+    <ModalButton
+      buttonClassName={project.popup}
+      height={400}
+      width='100%'
+      modal={props => (
       <ProjectDetails
         title={title} 
         stacks={stacks} 
@@ -24,7 +27,9 @@ const Project = ({ title, stacks, description, liveLink, repo, images, imageM })
         repo={repo}
         images={images}
       />
-    </Popup>
+    )}>
+      See the project
+    </ModalButton>
   </article>
 );
 
