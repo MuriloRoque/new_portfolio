@@ -65,3 +65,45 @@
   width: 28px;
   height: 28px;
 }
+
+@media (min-width: 1024px) {
+  .container {
+    display: flex;
+    padding-bottom: 0;
+  }
+
+  .intro h1 {
+    font-size: 66px;
+  }
+
+  .intro p {
+    width: 350px;
+  }
+
+  .network {
+    background-color: #FFFFFF;
+    display: flex;
+    padding: 11px 12px;
+    justify-content: space-between;
+  }
+
+  .network span {
+    margin-bottom: 0;
+    padding: 0;
+    line-height: 32px;
+  }
+
+  .intro_network {
+    padding: 161px 90px 217px 150px;
+  }
+
+  .iconContainer {
+    align-items: center;
+  }
+
+  .iconContainer img {
+    width: 20px;
+    height: 20px;
+    margin-left: 9px;
+  }
+}
