@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	min-width: 320px;
 }
 ol, ul {
 	list-style: none;
@@ -50,9 +51,7 @@ table {
 article .modal-fade-on-enter {
 	animation: none;
 	max-width: 600px;
-	left: 50%;
 	top: 200px;
-	margin-left: -300px;
 }
 
 div .c-modal--window {
@@ -100,4 +99,11 @@ div .c-modal--backdrop {
 
 div .carousel .thumb:hover {
 	border: 3px solid #F9855B;
+}
+
+@media (min-width: 656px) {
+	article .modal-fade-on-enter {
+		margin-left: -300px;
+		left: 50%;
+	}
 }

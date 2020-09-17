@@ -70,6 +70,13 @@
   .container {
     display: flex;
     padding-bottom: 0;
+    border-radius: 100% 0% 0% 40% / 0% 100% 0% 100%;
+    margin-left: 275px;
+    padding-left: 130px;
+  }
+
+  .intro {
+    padding-left: 0;
   }
 
   .intro h1 {
@@ -85,6 +92,7 @@
     display: flex;
     padding: 11px 12px;
     justify-content: space-between;
+    margin-left: 0;
   }
 
   .network span {
@@ -94,7 +102,8 @@
   }
 
   .intro_network {
-    padding: 161px 90px 217px 150px;
+    padding: 161px 0 217px 0;
+    width: 100%;
   }
 
   .iconContainer {
@@ -105,5 +114,12 @@
     width: 20px;
     height: 20px;
     margin-left: 9px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .iconContainer img {
+    width: 30px;
+    height: 30px;
   }
 }

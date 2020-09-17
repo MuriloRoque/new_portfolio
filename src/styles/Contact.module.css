@@ -69,6 +69,7 @@
   text-align: center;
   color: #FFFFFF;
   margin-bottom: 36px;
+  cursor: pointer;
 }
 
 .email {
@@ -106,4 +107,54 @@
   color: #C5CBFE;
   background-color: #4052F0;
   padding-bottom: 20px;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding-left: 405px;
+  }
+
+  .intro {
+    padding-left: 0;
+    text-align: left;
+    margin-top: 70px;
+  }
+
+  .background form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .background .input {
+    width: 49%;
+  }
+
+  .background .inputText {
+    width: 100%;
+  }
+
+  .background button {
+    width: 40%;
+  }
+
+  .email {
+    text-align: right;
+  }
+
+  .socialContainer {
+    display: block;
+    text-align: right;
+  }
+
+  .socialContainer img {
+    margin-left: 15px;
+  }
+
+  .footer {
+    padding-left: 405px;
+    margin-left: 405px;
+    text-align: right;
+    padding-right: 21px;
+  }
 }

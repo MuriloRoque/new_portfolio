@@ -40,6 +40,8 @@
     flex-direction: column;
     background-color: #FFFFFF;
     justify-content: left;
+    position: fixed;
+    left: 0;
   }
 
   .navLinks {

@@ -19,6 +19,10 @@ import friends1 from '../assets/images/friends1.png';
 import friends2 from '../assets/images/friends2.png';
 import friends3 from '../assets/images/friends3.png';
 import friendsM from '../assets/images/friendsM.jpg';
+import library1 from '../assets/images/library1.png';
+import library2 from '../assets/images/library2.png';
+import library3 from '../assets/images/library3.png';
+import libraryM from '../assets/images/libraryM.jpg';
 
 const PROJECTS = [
   { id: uuidv1(), 
@@ -61,6 +65,14 @@ const PROJECTS = [
     repo: 'https://github.com/MuriloRoque/friends_catalog',
     imageM: friendsM,
     images: [ friends1, friends2, friends3] },
+  { id: uuidv1(), 
+    title: "Local Library", 
+    stacks: ['Node.js', 'Express', 'MongoDB'], 
+    description: "The purpose of the website is to provide an online catalog for a small local library, where users can browse available books and manage their accounts.", 
+    liveLink: 'https://murilo-local-library.herokuapp.com/catalog', 
+    repo: 'https://github.com/MuriloRoque/express_local_library',
+    imageM: libraryM,
+    images: [ library1, library2, library3] },
 ];
 
 export default PROJECTS;

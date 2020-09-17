@@ -20,13 +20,13 @@ const Contact = () => (
       </div>
       <div className={contact.background}>
         <form action="">
-          <label htmlFor="name">
+          <label className={contact.input} htmlFor="name">
             <input name='name' type="text" placeholder='Full name*' required/>
           </label>
-          <label htmlFor="email">
+          <label className={contact.input} htmlFor="email">
             <input name='email' type="email" placeholder='Email*' required/>
           </label>
-          <label htmlFor="message">
+          <label className={contact.inputText} htmlFor="message">
             <input className={contact.text} name='message' type="textarea" placeholder='Message*' required/>
           </label>
           <button type="submit">Get in touch</button>

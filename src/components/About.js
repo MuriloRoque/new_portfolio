@@ -14,42 +14,44 @@ const About = () => (
        the number of calories that were consumed daily. 
        Currently, I’m exploring full-stack development opportunities</p>
     <a rel="noopener noreferrer" target='_blank' href={resume}>Get my resume</a>
-    <article>
-      <h2>Languages</h2>
-      <ul>
-        <li>JavaScript (ES5/ES6)</li>
-        <li>Ruby</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Python</li>
-        <li>Node.js</li>
-      </ul>
-    </article>
-    <article>
-      <h2>Frameworks</h2>
-      <ul>
-        <li>Bootstrap</li>
-        <li>Ruby on Rails</li>
-        <li>RSpec</li>
-        <li>Capybara</li>
-        <li>Selenium</li>
-        <li>Express</li>
-        <li>SASS</li>
-        <li>Phaser 3</li>
-      </ul>
-    </article>
-    <article>
-      <h2>Skills</h2>
-      <ul>
-        <li>Bootstrap</li>
-        <li>Git</li>
-        <li>Github</li>
-        <li>Gitlab</li>
-        <li>Bitbucket</li>
-        <li>Pair Programming</li>
-        <li>Remote Work</li>
-      </ul>
-    </article>
+    <div>
+      <article>
+        <h2>Languages</h2>
+        <ul>
+          <li>JavaScript (ES5/ES6)</li>
+          <li>Ruby</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Python</li>
+          <li>Node.js</li>
+        </ul>
+      </article>
+      <article>
+        <h2>Frameworks</h2>
+        <ul>
+          <li>Bootstrap</li>
+          <li>Ruby on Rails</li>
+          <li>RSpec</li>
+          <li>Capybara</li>
+          <li>Selenium</li>
+          <li>Express</li>
+          <li>SASS</li>
+          <li>Phaser 3</li>
+        </ul>
+      </article>
+      <article>
+        <h2>Skills</h2>
+        <ul>
+          <li>Bootstrap</li>
+          <li>Git</li>
+          <li>Github</li>
+          <li>Gitlab</li>
+          <li>Bitbucket</li>
+          <li>Pair Programming</li>
+          <li>Remote Work</li>
+        </ul>
+      </article>
+    </div>
   </section>
 );
 

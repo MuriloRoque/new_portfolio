@@ -54,11 +54,47 @@
   line-height: 17px;
   text-align: center;
   color: #FFFFFF;
+  cursor: pointer;
+  outline: none;
 }
 
 @media (min-width: 425px) {
   .stacks span {
     font-size: 16px;
     padding: 6px 14px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container .title, .stacks, .popup {
+    display: none;
+  }
+
+  .container {
+    width: 48%;
+  }
+
+  .container:hover .title {
+    display: block;
+  }
+
+  .container:hover .popup {
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    left: 19px;
+    width: 60%;
+    padding: 15px 0;
+  }
+
+  .container:hover .stacks {
+    display: flex;
+    position: absolute;
+    top: 57px;
+    left: 19px;
+  }
+
+  .container:hover .stacks span {
+    font-size: 10px;
   }
 }

@@ -6,7 +6,7 @@ import ProjectDetails from './ProjectDetails';
 const Project = ({ title, stacks, description, liveLink, repo, images, imageM }) => (
   <article className={project.container}>
     <img src={imageM} alt={title}/>
-    <h1>{title}</h1>
+    <h1 className={project.title}>{title}</h1>
     <div className={project.stacks}>
       {
         stacks.map(stack => (

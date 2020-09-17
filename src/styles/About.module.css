@@ -63,3 +63,18 @@
   line-height: 39px;
   color: #737986;
 }
+
+@media (min-width: 1024px) {
+  .container {
+    padding-left: 405px;
+  }
+
+  .container div {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .container article {
+    width: 22%;
+  }
+}

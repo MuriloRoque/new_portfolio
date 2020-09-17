@@ -10,3 +10,15 @@
   line-height: 29px;
   color: #4F5461;
 }
+
+@media (min-width: 1024px) {
+  .container {
+    padding-left: 405px;
+  }
+
+  .projects {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
