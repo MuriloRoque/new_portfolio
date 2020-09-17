@@ -107,3 +107,24 @@ div .carousel .thumb:hover {
 		left: 50%;
 	}
 }
+
+@media (min-width: 1024px) {
+	article .modal-fade-on-enter {
+		max-width: 900px;
+		width: 900px;
+		margin-left: -450px;
+		top: -100px;
+	}
+
+	#root > main > section > div > article:nth-child(even) > div.c-modal.modal-fade-on-enter {
+		margin-left: -830px;
+	}
+
+	.carousel .thumb {
+		width: 200px !important;
+	}
+
+	.carousel .thumb img {
+		width: 200px;
+	}
+}
