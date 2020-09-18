@@ -1,30 +1,50 @@
-import project from '../styles/Project.module.css';
 import React from 'react';
-import Popup from 'reactjs-popup';
-import 'reactjs-popup/dist/index.css';
+import { ModalButton } from 'react-modal-button';
+import PropTypes from 'prop-types';
+import project from '../styles/Project.module.css';
 import ProjectDetails from './ProjectDetails';
 
-const Project = ({ title, stacks, description, liveLink, repo, images }) => (
-  <article>
-    <img src={images[0].original} alt={title}/>
-    <div>
+const Project = ({
+  title, stacks, description, liveLink, repo, images, imageM,
+}) => (
+  <article className={project.container}>
+    <img src={imageM} alt={title} />
+    <h1 className={project.title}>{title}</h1>
+    <div className={project.stacks}>
       {
         stacks.map(stack => (
-          <span>{stack}</span>
+          <span key={stack}>{stack}</span>
         ))
       }
     </div>
-    <Popup trigger={<button>See the project</button>} position="right center">
-      <ProjectDetails
-        title={title} 
-        stacks={stacks} 
-        description={description} 
-        liveLink={liveLink}
-        repo={repo}
-        images={images}
-      />
-    </Popup>
+    <ModalButton
+      buttonClassName={project.popup}
+      height={400}
+      width="100%"
+      modal={() => (
+        <ProjectDetails
+          title={title}
+          stacks={stacks}
+          description={description}
+          liveLink={liveLink}
+          repo={repo}
+          images={images}
+        />
+      )}
+    >
+      See the project
+    </ModalButton>
   </article>
 );
+
+Project.propTypes = {
+  title: PropTypes.string.isRequired,
+  stacks: PropTypes.instanceOf(Array).isRequired,
+  description: PropTypes.string.isRequired,
+  liveLink: PropTypes.string.isRequired,
+  repo: PropTypes.string.isRequired,
+  images: PropTypes.instanceOf(Array).isRequired,
+  imageM: PropTypes.string.isRequired,
+};
 
 export default Project;

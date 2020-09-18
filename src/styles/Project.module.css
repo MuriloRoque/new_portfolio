@@ -1,0 +1,102 @@
+.container {
+  padding: 30px 0 0 0;
+  position: relative;
+  text-align: center;
+}
+
+.container img {
+  width: 100%;
+}
+
+.container h1 {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 21px;
+  color: #b9b5b5;
+  position: absolute;
+  top: 47px;
+  left: 19px;
+}
+
+.stacks {
+  display: flex;
+  justify-content: space-between;
+  margin: 17px 0;
+}
+
+.stacks span {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 21px;
+  text-align: center;
+  color: #e6e9f0;
+  background-color: #4f5461;
+  border-radius: 40px;
+  padding: 6px 8px;
+  display: block;
+}
+
+.popup {
+  background-color: #4456fb;
+  border-radius: 60px;
+  padding: 22px 0;
+  width: 100%;
+  max-width: 315px;
+  border: none;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 17px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+}
+
+@media (min-width: 425px) {
+  .stacks span {
+    font-size: 16px;
+    padding: 6px 14px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container .title,
+  .stacks,
+  .popup {
+    display: none;
+  }
+
+  .container {
+    width: 48%;
+  }
+
+  .container:hover .title {
+    display: block;
+  }
+
+  .container:hover .popup {
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    left: 19px;
+    width: 60%;
+    padding: 15px 0;
+  }
+
+  .container:hover .stacks {
+    display: flex;
+    position: absolute;
+    top: 57px;
+    left: 19px;
+  }
+
+  .container:hover .stacks span {
+    font-size: 10px;
+  }
+}
