@@ -11,7 +11,7 @@ import facebook from '../assets/images/facebook.png';
 import instagram from '../assets/images/instagram.png';
 
 const Intro = () => (
-  <section className={intro.container}>
+  <section id="intro" className={intro.container}>
     <Header />
     <div className={intro.intro_network}>
       <div className={intro.intro}>

@@ -4,7 +4,7 @@ import PROJECTS from '../constants/projects';
 import Project from '../components/Project';
 
 const ProjectsList = () => (
-  <section className={projectsList.container}>
+  <section id="portfolio" className={projectsList.container}>
     <h1>My Portfolio</h1>
     <div className={projectsList.projects}>
       {

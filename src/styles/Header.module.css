@@ -26,6 +26,10 @@
   width: 224px;
 }
 
+.navLinks li:first-child {
+  display: none;
+}
+
 .navLinks a {
   color: #FFFFFF;
   font-family: Sora, sans-serif;
@@ -47,6 +51,10 @@
   .navLinks {
     margin-top: 82px;
     flex-direction: column;
+  }
+
+  .navLinks li:first-child {
+    display: block;
   }
 
   .navLinks a {

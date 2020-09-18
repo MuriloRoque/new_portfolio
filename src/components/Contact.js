@@ -11,7 +11,7 @@ import instagram from '../assets/images/instagram2.png';
 
 const Contact = () => (
   <>
-    <section className={contact.container}>
+    <section id="contact" className={contact.container}>
       <div className={contact.intro}>
         <h1>Interested in collaborating?</h1>
         <p>If you have an application you are interested in developing, a feature

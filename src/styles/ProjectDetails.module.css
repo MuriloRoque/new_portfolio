@@ -3,6 +3,18 @@
   background-color: #fff;
   width: 100%;
   box-shadow: 0 1px 4px 0 rgba(41,51,57,.5);
+  position: relative;
+}
+
+.overlay {
+  z-index: 90;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.5;
 }
 
 .buttons {
