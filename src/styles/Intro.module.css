@@ -1,5 +1,5 @@
 .container {
-  background: linear-gradient(248.05deg, #AE5BD6 24.1%, #4052F0 99.44%);
+  background: linear-gradient(248.05deg, #ae5bd6 24.1%, #4052f0 99.44%);
   text-align: center;
   padding-bottom: 40px;
 }
@@ -15,7 +15,7 @@
   font-style: normal;
   font-weight: bold;
   font-size: 38px;
-  color: #FFFFFF;
+  color: #fff;
   padding-bottom: 20px;
 }
 
@@ -24,7 +24,7 @@
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
-  color: #FFFFFF;
+  color: #fff;
   padding-bottom: 34px;
 }
 
@@ -34,11 +34,11 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .network {
-  background: #FFFFFF;
+  background: #fff;
   border-radius: 20px;
   padding: 20px 18px;
   margin: 0 13px;
@@ -52,7 +52,7 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
-  color: #4F5461;
+  color: #4f5461;
   padding-bottom: 15px;
 }
 
@@ -88,7 +88,7 @@
   }
 
   .network {
-    background-color: #FFFFFF;
+    background-color: #fff;
     display: flex;
     padding: 11px 12px;
     justify-content: space-between;

@@ -6,7 +6,7 @@
 }
 
 .logo {
-  background-color: #4456FB;
+  background-color: #4456fb;
   border-radius: 50%;
   min-width: 64px;
   height: 64px;
@@ -17,7 +17,7 @@
   font-style: normal;
   font-weight: 800;
   font-size: 20px;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .navLinks {
@@ -31,7 +31,7 @@
 }
 
 .navLinks a {
-  color: #FFFFFF;
+  color: #fff;
   font-family: Sora, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -42,7 +42,7 @@
 @media (min-width: 1024px) {
   .container {
     flex-direction: column;
-    background-color: #FFFFFF;
+    background-color: #fff;
     justify-content: left;
     position: fixed;
     left: 0;
@@ -58,7 +58,7 @@
   }
 
   .navLinks a {
-    color: #4456FB;
+    color: #4456fb;
     margin-bottom: 30px;
     display: block;
   }

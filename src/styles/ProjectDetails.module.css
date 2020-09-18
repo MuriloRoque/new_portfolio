@@ -2,7 +2,7 @@
   z-index: 99;
   background-color: #fff;
   width: 100%;
-  box-shadow: 0 1px 4px 0 rgba(41,51,57,.5);
+  box-shadow: 0 1px 4px 0 rgba(41, 51, 57, 0.5);
   position: relative;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .container a {
-  background-color: #FA4969;;
+  background-color: #fa4969;
   border-radius: 60px;
   padding: 22px 0;
   width: 100%;
@@ -34,15 +34,15 @@
   font-size: 16px;
   line-height: 17px;
   text-align: center;
-  color: #FFFFFF;
-  width: 100%;
+  color: #fff;
   position: relative;
   display: block;
   margin: 0 auto 13px auto;
   text-decoration: none;
 }
 
-.container .pop, .container .github {
+.container .pop,
+.container .github {
   width: 16px;
   position: absolute;
   right: 30px;
@@ -55,7 +55,7 @@
   font-weight: bold;
   font-size: 28px;
   line-height: 29px;
-  color: #4F5461;
+  color: #4f5461;
   top: 0;
   left: 0;
   text-align: left;
@@ -74,8 +74,8 @@
   font-size: 10px;
   line-height: 21px;
   text-align: center;
-  color: #E6E9F0;
-  background-color: #4F5461;
+  color: #e6e9f0;
+  background-color: #4f5461;
   border-radius: 40px;
   padding: 6px;
   display: block;

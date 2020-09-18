@@ -13,7 +13,7 @@
   font-weight: bold;
   font-size: 28px;
   line-height: 29px;
-  color: #4F5461;
+  color: #4f5461;
   margin-bottom: 16px;
 }
 
@@ -27,15 +27,15 @@
 }
 
 .background {
-  background: linear-gradient(234.04deg, #7F38DA 0%, #4052F0 71.02%);
+  background: linear-gradient(234.04deg, #7f38da 0%, #4052f0 71.02%);
   padding: 37px 21px 20px 21px;
 }
 
 .background input {
-  background-color: #FFFFFF;
+  background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.07);
   box-sizing: border-box;
-  box-shadow: 0px 7px 15px rgba(95, 104, 186, 0.13);
+  box-shadow: 0 7px 15px rgba(95, 104, 186, 0.13);
   border-radius: 14px;
   font-family: Sora, sans-serif;
   font-style: normal;
@@ -44,7 +44,7 @@
   line-height: 20px;
   display: flex;
   align-items: center;
-  color: #91959E;
+  color: #91959e;
   padding: 15px 23px;
   width: 100%;
   margin-bottom: 16px;
@@ -55,7 +55,7 @@
 }
 
 .background button {
-  background-color: #FA4969;;
+  background-color: #fa4969;
   border-radius: 60px;
   padding: 22px 0;
   width: 100%;
@@ -67,7 +67,7 @@
   font-size: 16px;
   line-height: 17px;
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
   margin-bottom: 36px;
   cursor: pointer;
 }
@@ -79,7 +79,7 @@
   font-size: 16px;
   line-height: 20px;
   text-align: center;
-  color: #C5CBFE;
+  color: #c5cbfe;
   margin-bottom: 20px;
   display: block;
 }
@@ -88,7 +88,7 @@
   display: flex;
   width: 100%;
   justify-content: space-between;
-  border-bottom: 1px solid #6877FF;
+  border-bottom: 1px solid #6877ff;
   padding-bottom: 32px;
 }
 
@@ -104,8 +104,8 @@
   font-size: 16px;
   line-height: 20px;
   text-align: center;
-  color: #C5CBFE;
-  background-color: #4052F0;
+  color: #c5cbfe;
+  background-color: #4052f0;
   padding-bottom: 20px;
 }
 
