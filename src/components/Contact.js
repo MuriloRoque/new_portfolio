@@ -19,7 +19,7 @@ const Contact = () => (
         </p>
       </div>
       <div className={contact.background}>
-        <form action="">
+        <form action="https://formspree.io/xzbkpkvd" method="POST">
           <label className={contact.input} htmlFor="name">
             <input name='name' type="text" placeholder='Full name*' required/>
           </label>
