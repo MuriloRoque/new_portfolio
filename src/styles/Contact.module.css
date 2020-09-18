@@ -48,6 +48,7 @@
   padding: 15px 23px;
   width: 100%;
   margin-bottom: 16px;
+  outline: none;
 }
 
 .background .text {
@@ -120,6 +121,10 @@
     margin-top: 70px;
   }
 
+  .background {
+    border-radius: 100% 0% 100% 0% / 70% 100% 0% 30%;
+  }
+
   .background form {
     display: flex;
     flex-wrap: wrap;
@@ -156,5 +161,81 @@
     margin-left: 405px;
     text-align: right;
     padding-right: 21px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container h1 {
+    font-size: 32px;
+  }
+
+  .socialContainer img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .container p {
+    line-height: 28px;
+  }
+
+  .container p, .background input, .background button, .email, .footer {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1350px) {
+  .container h1 {
+    font-size: 36px;
+  }
+
+  .socialContainer img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .container p {
+    line-height: 32px;
+  }
+
+  .container p, .background input, .background button, .email, .footer {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1550px) {
+  .container h1 {
+    font-size: 40px;
+  }
+
+  .socialContainer img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .container p {
+    line-height: 36px;
+  }
+
+  .container p, .background input, .background button, .email, .footer {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 1800px) {
+  .container h1 {
+    font-size: 44px;
+  }
+
+  .socialContainer img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .container p {
+    line-height: 40px;
+  }
+
+  .container p, .background input, .background button, .email, .footer {
+    font-size: 32px;
   }
 }

@@ -99,6 +99,7 @@
     margin-bottom: 0;
     padding: 0;
     line-height: 32px;
+    font-size: 19px;
   }
 
   .intro_network {
@@ -121,5 +122,110 @@
   .iconContainer img {
     width: 30px;
     height: 30px;
+  }
+
+  .intro h1 {
+    font-size: 70px;
+  }
+
+  .intro h4 {
+    font-size: 28px;
+  }
+
+  .intro p {
+    font-size: 19px;
+    width: 400px;
+    line-height: 23px;
+  }
+
+  .network span {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1350px) {
+  .container {
+    padding-left: 320px;
+  }
+
+  .iconContainer img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .intro h1 {
+    font-size: 74px;
+  }
+
+  .intro h4 {
+    font-size: 32px;
+  }
+
+  .intro p {
+    font-size: 23px;
+    width: 550px;
+    line-height: 27px;
+  }
+
+  .network span {
+    font-size: 23px;
+  }
+}
+
+@media (min-width: 1550px) {
+  .container {
+    padding-left: 470px;
+  }
+
+  .iconContainer img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .intro h1 {
+    font-size: 78px;
+  }
+
+  .intro h4 {
+    font-size: 36px;
+  }
+
+  .intro p {
+    font-size: 26px;
+    width: 550px;
+    line-height: 27px;
+  }
+
+  .network span {
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 1800px) {
+  .container {
+    padding-left: 570px;
+  }
+
+  .iconContainer img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .intro h1 {
+    font-size: 82px;
+  }
+
+  .intro h4 {
+    font-size: 39px;
+  }
+
+  .intro p {
+    font-size: 29px;
+    width: 550px;
+    line-height: 33px;
+  }
+
+  .network span {
+    font-size: 29px;
   }
 }

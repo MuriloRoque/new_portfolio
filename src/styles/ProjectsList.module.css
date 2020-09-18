@@ -22,3 +22,28 @@
     flex-wrap: wrap;
   }
 }
+
+@media (min-width: 1200px) {
+  .container h1 {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 1350px) {
+  .container h1 {
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 1550px) {
+  .container h1 {
+    font-size: 39px;
+  }
+}
+
+@media (min-width: 1800px) {
+  .container h1 {
+    font-size: 44px;
+  }
+}
+
