@@ -70,20 +70,9 @@
   }
 }
 
-@media (min-width: 1350px) {
-  .navLinks a {
-    font-size: 25px;
-  }
-}
-
-@media (min-width: 1550px) {
-  .navLinks a {
-    font-size: 29px;
-  }
-}
-
-@media (min-width: 1800px) {
-  .navLinks a {
-    font-size: 34px;
+@media (min-width: 1440px) {
+  .container {
+    margin-left: -720px;
+    left: 50%;
   }
 }
