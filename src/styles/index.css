@@ -102,13 +102,13 @@ section {
 
 html {
   scroll-behavior: smooth;
-  max-width: 1440px;
-  margin: 0 auto;
 }
 
 body {
   line-height: 1;
   min-width: 320px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 ol,

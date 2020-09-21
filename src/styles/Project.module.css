@@ -69,7 +69,11 @@
   .container .title,
   .stacks,
   .popup {
-    display: none;
+    opacity: 0;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
   }
 
   .container {
@@ -78,9 +82,10 @@
 
   .container:hover .title {
     display: block;
+    opacity: 1;
   }
 
-  .container:hover .popup {
+  .container .popup {
     display: block;
     position: absolute;
     bottom: 20px;
@@ -89,11 +94,19 @@
     padding: 15px 0;
   }
 
-  .container:hover .stacks {
+  .container:hover .popup {
+    opacity: 1;
+  }
+
+  .container .stacks {
     display: flex;
     position: absolute;
     top: 57px;
     left: 19px;
+  }
+
+  .container:hover .stacks {
+    opacity: 1;
   }
 
   .container:hover .stacks span {
