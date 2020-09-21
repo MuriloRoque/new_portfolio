@@ -213,4 +213,8 @@ div .carousel .thumb:hover {
   .carousel .thumb img {
     width: 200px;
   }
+
+  .active {
+    font-weight: 700 !important;
+  }
 }
