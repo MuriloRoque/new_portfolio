@@ -107,6 +107,8 @@ html {
 body {
   line-height: 1;
   min-width: 320px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 ol,
@@ -210,5 +212,9 @@ div .carousel .thumb:hover {
 
   .carousel .thumb img {
     width: 200px;
+  }
+
+  .active {
+    font-weight: 700 !important;
   }
 }
