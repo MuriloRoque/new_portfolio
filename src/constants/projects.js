@@ -23,6 +23,10 @@ import library1 from '../assets/images/library1.png';
 import library2 from '../assets/images/library2.png';
 import library3 from '../assets/images/library3.png';
 import libraryM from '../assets/images/libraryM.jpg';
+import happy1 from '../assets/images/happy1.png';
+import happy2 from '../assets/images/happy2.png';
+import happy3 from '../assets/images/happy3.png';
+import happyM from '../assets/images/happyM.jpg';
 
 const PROJECTS = [
   {
@@ -84,6 +88,16 @@ const PROJECTS = [
     repo: 'https://github.com/MuriloRoque/express_local_library',
     imageM: libraryM,
     images: [library1, library2, library3],
+  },
+  {
+    id: uuidv1(),
+    title: 'Happy (Orphanage Search)',
+    stacks: ['Node.js', 'Typescript', 'React Native'],
+    description: 'This is a web app used to search for orphanages in your city, it connects kids with their future.',
+    liveLink: 'https://happy-front.netlify.app/',
+    repo: 'https://github.com/MuriloRoque/orphanage_search_nlw',
+    imageM: happyM,
+    images: [happy1, happy2, happy3],
   },
 ];
 
